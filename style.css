@@ -1,0 +1,88 @@
+/*General Reset*/
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Root*/
+html{
+    font-size: 62.5%;
+}
+/* Base */
+html{
+    background-color: hsl(36, 100%, 99%);
+    font: 1em sans-serif;
+    font-size: 10px;
+}
+.container{
+   
+    font-family:  inter-reguler;
+    font-size: 1.5rem;
+    background-color: hsl(36, 100%, 99%);
+    padding: 5px;
+    margin: 50px;
+    width: 375px;
+    text-align: bold;
+}
+
+.sr-only{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2em;
+}
+.homecontent{
+    background-color:  hsl(36, 100%, 99%);
+    
+}
+button{
+   background-color:  red;
+   color: white;
+   gap: 20px; 
+}
+button:hover{
+    background-color: hsl(240, 100%, 5%);
+
+}
+.container1{
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+    gap: 20px;
+    font-size: 2rem;
+}
+.manji{
+    display: flex;
+    align-items: center;
+}
+.manji2{
+    display: flex;
+    align-items: center;
+}
+.manji3{
+    display: flex;
+    align-items: center;
+}
+.name{
+    color: hsl(236, 13%, 42%);
+}
+.p{
+    color: hsl(236, 13%, 42%);
+}
+.mj{
+    color: hsl(35, 77%, 62%);
+}
+h3:hover{
+    cursor: pointer;
+    color: hsl(35, 77%, 62%);
+}
+.sm{
+    padding-bottom: 70px;
+}
+
+
+/*utilities*/
+/*mobile*/
+/*Desktop*/
